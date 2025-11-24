@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 (2025-11-24)
+
+Full Changelog: [v1.1.0...v1.2.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v1.1.0...v1.2.0)
+
+### Features
+
+* **api:** update pets status enum ([e53dc7d](https://github.com/rehanalam/stainless-release-flow-test/commit/e53dc7d37019d8b0328f8e40cb45c95c845ca8a0))
+
 ## 1.1.0 (2025-11-24)
 
 Full Changelog: [v1.0.2...v1.1.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v1.0.2...v1.1.0)
