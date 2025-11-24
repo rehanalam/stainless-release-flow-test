@@ -34,7 +34,7 @@ describe('resource pets', () => {
 
   // Prism tests are disabled
   test.skip('retrieve', async () => {
-    const responsePromise = client.pets.retrieve(0);
+    const responsePromise = client.pets.retrieve('petId');
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
