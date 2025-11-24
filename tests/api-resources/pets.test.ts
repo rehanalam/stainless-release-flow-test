@@ -96,7 +96,10 @@ describe('resource pets', () => {
   test.skip('findByStatus: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
-      client.pets.findByStatus({ status: 'available' }, { path: '/_stainless_unknown_path' }),
+      client.pets.findByStatus(
+        { status: 'available', type: 'available' },
+        { path: '/_stainless_unknown_path' },
+      ),
     ).rejects.toThrow(ReleaseFlowWithSampleAPI.NotFoundError);
   });
 
