@@ -1,4 +1,7 @@
-import { createPathTagFunction, encodeURIPath } from 'release-flow-with-sample-api/internal/utils/path';
+import {
+  createPathTagFunction,
+  encodeURIPath,
+} from 'stainlees-release-flow-with-sample-api/internal/utils/path';
 import { inspect } from 'node:util';
 import { runInNewContext } from 'node:vm';
 

@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'release-flow-with-sample-api/core/api-promise';
+import { APIPromise } from 'stainlees-release-flow-with-sample-api/core/api-promise';
 
 import util from 'node:util';
-import ReleaseFlowWithSampleAPI from 'release-flow-with-sample-api';
-import { APIUserAbortError } from 'release-flow-with-sample-api';
+import ReleaseFlowWithSampleAPI from 'stainlees-release-flow-with-sample-api';
+import { APIUserAbortError } from 'stainlees-release-flow-with-sample-api';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

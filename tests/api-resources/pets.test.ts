@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import ReleaseFlowWithSampleAPI, { toFile } from 'release-flow-with-sample-api';
+import ReleaseFlowWithSampleAPI, { toFile } from 'stainlees-release-flow-with-sample-api';
 
 const client = new ReleaseFlowWithSampleAPI({
   apiKey: 'My API Key',
