@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2 (2025-11-24)
+
+Full Changelog: [v1.0.1...v1.0.2](https://github.com/rehanalam/stainless-release-flow-test/compare/v1.0.1...v1.0.2)
+
+### Chores
+
+* **api:** manual updates ([cd2ba5b](https://github.com/rehanalam/stainless-release-flow-test/commit/cd2ba5b4e8b2dd3923be5bf7b3d4d6d93546f29e))
+
 ## 1.0.1 (2025-11-24)
 
 Full Changelog: [v0.4.0-alpha.0...v1.0.1](https://github.com/rehanalam/stainless-release-flow-test/compare/v0.4.0-alpha.0...v1.0.1)

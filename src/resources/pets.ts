@@ -238,7 +238,7 @@ export namespace PetUpdateParams {
 
 export interface PetFindByStatusParams {
   /**
-   * Status values that need to be considered for filter
+   * Status values that need to be considered for filter.
    */
   status?: 'available' | 'pending';
 
