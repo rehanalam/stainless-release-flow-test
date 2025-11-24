@@ -240,12 +240,12 @@ export interface PetFindByStatusParams {
   /**
    * Status values that need to be considered for filter
    */
-  status?: 'available' | 'pending' | 'sold' | 'new';
+  status?: 'available' | 'pending' | 'sold';
 
   /**
    * Status by type value that need to be considered for filter
    */
-  type?: 'available' | 'pending' | 'sold' | 'new';
+  type?: 'available' | 'pending' | 'sold';
 }
 
 export interface PetFindByTagsParams {
