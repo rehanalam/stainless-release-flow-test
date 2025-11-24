@@ -7,8 +7,8 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^release-flow-with-sample-api$': '<rootDir>/src/index.ts',
-    '^release-flow-with-sample-api/(.*)$': '<rootDir>/src/$1',
+    '^stainlees-release-flow-with-sample-api$': '<rootDir>/src/index.ts',
+    '^stainlees-release-flow-with-sample-api/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/ecosystem-tests/',

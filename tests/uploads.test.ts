@@ -1,6 +1,6 @@
 import fs from 'fs';
-import type { ResponseLike } from 'release-flow-with-sample-api/internal/to-file';
-import { toFile } from 'release-flow-with-sample-api/core/uploads';
+import type { ResponseLike } from 'stainlees-release-flow-with-sample-api/internal/to-file';
+import { toFile } from 'stainlees-release-flow-with-sample-api/core/uploads';
 import { File } from 'node:buffer';
 
 class MyClass {
@@ -97,7 +97,7 @@ describe('missing File error message', () => {
   });
 
   test('is thrown', async () => {
-    const uploads = await import('release-flow-with-sample-api/core/uploads');
+    const uploads = await import('stainlees-release-flow-with-sample-api/core/uploads');
     await expect(
       uploads.toFile(mockResponse({ url: 'https://example.com/my/audio.mp3' })),
     ).rejects.toMatchInlineSnapshot(

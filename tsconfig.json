@@ -8,8 +8,8 @@
     "moduleResolution": "node",
     "esModuleInterop": true,
     "paths": {
-      "release-flow-with-sample-api/*": ["./src/*"],
-      "release-flow-with-sample-api": ["./src/index.ts"]
+      "stainlees-release-flow-with-sample-api/*": ["./src/*"],
+      "stainlees-release-flow-with-sample-api": ["./src/index.ts"]
     },
     "noEmit": true,
 

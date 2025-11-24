@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 (2025-11-24)
+
+Full Changelog: [v0.4.0-alpha.0...v1.0.1](https://github.com/rehanalam/stainless-release-flow-test/compare/v0.4.0-alpha.0...v1.0.1)
+
+### Chores
+
+* update SDK settings ([d980321](https://github.com/rehanalam/stainless-release-flow-test/commit/d98032128824571578371297a26199e7335c4fd1))
+
 ## 0.4.0-alpha.0 (2025-11-24)
 
 Full Changelog: [v0.3.0...v0.4.0-alpha.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v0.3.0...v0.4.0-alpha.0)

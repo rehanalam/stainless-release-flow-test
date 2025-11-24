@@ -1,5 +1,8 @@
-import { multipartFormRequestOptions, createForm } from 'release-flow-with-sample-api/internal/uploads';
-import { toFile } from 'release-flow-with-sample-api/core/uploads';
+import {
+  multipartFormRequestOptions,
+  createForm,
+} from 'stainlees-release-flow-with-sample-api/internal/uploads';
+import { toFile } from 'stainlees-release-flow-with-sample-api/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
