@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.0-alpha.0 (2025-11-24)
+
+Full Changelog: [v0.3.0...v0.4.0-alpha.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v0.3.0...v0.4.0-alpha.0)
+
+### ⚠ BREAKING CHANGES
+
+* **api:** updates pet status enum
+
+### Features
+
+* **api:** updates pet status enum ([061543e](https://github.com/rehanalam/stainless-release-flow-test/commit/061543ef2ff2c4d417ab0b844a96df8309c8555e))
+
 ## 0.3.0 (2025-11-24)
 
 Full Changelog: [v0.2.0...v0.3.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v0.2.0...v0.3.0)
