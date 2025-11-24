@@ -31,7 +31,7 @@ describe('instantiate client', () => {
       expect(req.headers.get('x-my-default-header')).toEqual('2');
     });
 
-    test('can ignore `undefined` and leave the default', async () => {
+    test('can ignore `undefined` and leave the default - custom code change', async () => {
       const { req } = await client.buildRequest({
         path: '/foo',
         method: 'post',

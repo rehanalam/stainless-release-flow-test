@@ -34,7 +34,7 @@ describe('resource pets', () => {
 
   // Prism tests are disabled
   test.skip('retrieve', async () => {
-    const responsePromise = client.pets.retrieve(0);
+    const responsePromise = client.pets.retrieve('petId');
     const rawResponse = await responsePromise.asResponse();
     expect(rawResponse).toBeInstanceOf(Response);
     const response = await responsePromise;
@@ -96,7 +96,10 @@ describe('resource pets', () => {
   test.skip('findByStatus: request options and params are passed correctly', async () => {
     // ensure the request options are being passed correctly by passing an invalid HTTP method in order to cause an error
     await expect(
-      client.pets.findByStatus({ status: 'available' }, { path: '/_stainless_unknown_path' }),
+      client.pets.findByStatus(
+        { status: 'available', type: 'available' },
+        { path: '/_stainless_unknown_path' },
+      ),
     ).rejects.toThrow(ReleaseFlowWithSampleAPI.NotFoundError);
   });
 

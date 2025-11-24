@@ -27,15 +27,15 @@ export class Pets extends APIResource {
    *
    * @example
    * ```ts
-   * const pet = await client.pets.retrieve(0);
+   * const pet = await client.pets.retrieve('petId');
    * ```
    */
-  retrieve(petID: number, options?: RequestOptions): APIPromise<Pet> {
+  retrieve(petID: string, options?: RequestOptions): APIPromise<Pet> {
     return this._client.get(path`/pet/${petID}`, options);
   }
 
   /**
-   * Update an existing pet by Id
+   * Update an existing pet by Id.
    *
    * @example
    * ```ts
@@ -240,7 +240,12 @@ export interface PetFindByStatusParams {
   /**
    * Status values that need to be considered for filter
    */
-  status?: 'available' | 'pending' | 'sold';
+  status?: 'available' | 'pending' | 'sold' | 'new' | 'upcoming';
+
+  /**
+   * Status by type value that need to be considered for filter
+   */
+  type?: 'available' | 'pending' | 'sold' | 'new' | 'upcoming';
 }
 
 export interface PetFindByTagsParams {
