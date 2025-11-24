@@ -243,7 +243,7 @@ export interface PetFindByStatusParams {
   status?: 'available' | 'pending' | 'sold';
 
   /**
-   * Status values that need to be considered for filter
+   * Status by type value that need to be considered for filter
    */
   type?: 'available' | 'pending' | 'sold';
 }
