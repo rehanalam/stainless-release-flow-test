@@ -42,15 +42,15 @@ If you’d like to use the repository from source, you can either install from g
 To install via git:
 
 ```sh
-$ npm install git+ssh://git@github.com:stainless-sdks/release-flow-with-sample-api-typescript.git
+$ npm install git+ssh://git@github.com:rehanalam/stainless-release-flow-test.git
 ```
 
 Alternatively, to link a local copy of the repo:
 
 ```sh
 # Clone
-$ git clone https://www.github.com/stainless-sdks/release-flow-with-sample-api-typescript
-$ cd release-flow-with-sample-api-typescript
+$ git clone https://www.github.com/rehanalam/stainless-release-flow-test
+$ cd stainless-release-flow-test
 
 # With yarn
 $ yarn link
