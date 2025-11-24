@@ -27,10 +27,10 @@ export class Pets extends APIResource {
    *
    * @example
    * ```ts
-   * const pet = await client.pets.retrieve(0);
+   * const pet = await client.pets.retrieve('petId');
    * ```
    */
-  retrieve(petID: number, options?: RequestOptions): APIPromise<Pet> {
+  retrieve(petID: string, options?: RequestOptions): APIPromise<Pet> {
     return this._client.get(path`/pet/${petID}`, options);
   }
 
