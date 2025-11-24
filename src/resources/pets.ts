@@ -35,7 +35,7 @@ export class Pets extends APIResource {
   }
 
   /**
-   * Update an existing pet by Id
+   * Update an existing pet by Id.
    *
    * @example
    * ```ts
