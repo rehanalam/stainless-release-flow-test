@@ -1,7 +1,7 @@
 import iconv from 'iconv-lite';
-import { stringify } from 'release-flow-with-sample-api/internal/qs';
-import { encode } from 'release-flow-with-sample-api/internal/qs/utils';
-import { StringifyOptions } from 'release-flow-with-sample-api/internal/qs/types';
+import { stringify } from 'stainlees-release-flow-with-sample-api/internal/qs';
+import { encode } from 'stainlees-release-flow-with-sample-api/internal/qs/utils';
+import { StringifyOptions } from 'stainlees-release-flow-with-sample-api/internal/qs/types';
 import { empty_test_cases } from './empty-keys-cases';
 import assert from 'assert';
 

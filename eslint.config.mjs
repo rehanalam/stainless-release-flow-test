@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^release-flow-with-sample-api(/.*)?',
+              regex: '^stainlees-release-flow-with-sample-api(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],

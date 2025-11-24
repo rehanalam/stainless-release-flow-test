@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "release-flow-with-sample-api/*": ["./dist/src/*"],
-      "release-flow-with-sample-api": ["./dist/src/index.ts"]
+      "stainlees-release-flow-with-sample-api/*": ["./dist/src/*"],
+      "stainlees-release-flow-with-sample-api": ["./dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,

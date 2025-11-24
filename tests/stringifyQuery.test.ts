@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { ReleaseFlowWithSampleAPI } from 'release-flow-with-sample-api';
+import { ReleaseFlowWithSampleAPI } from 'stainlees-release-flow-with-sample-api';
 
 const { stringifyQuery } = ReleaseFlowWithSampleAPI.prototype as any;
 
