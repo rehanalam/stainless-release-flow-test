@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.0 (2025-11-24)
+
+Full Changelog: [v0.1.0...v0.2.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v0.1.0...v0.2.0)
+
+### ⚠ BREAKING CHANGES
+
+* **api:** Remove preloved item from enum
+
+### Features
+
+* **api:** manual updates ([30dc09d](https://github.com/rehanalam/stainless-release-flow-test/commit/30dc09d0d1843c104ef7c6c2eefe60dcf64e605e))
+
 ## 0.1.0 (2025-11-24)
 
 Full Changelog: [v0.0.1...v0.1.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v0.0.1...v0.1.0)
