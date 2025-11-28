@@ -1,6 +1,6 @@
 {
   "name": "stainlees-release-flow-with-sample-api",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "The official TypeScript library for the Release Flow With Sample API API",
   "author": "Release Flow With Sample API <>",
   "types": "dist/index.d.ts",
