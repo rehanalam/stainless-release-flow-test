@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.0 (2025-11-28)
+
+Full Changelog: [v1.3.0...v1.4.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v1.3.0...v1.4.0)
+
+### Features
+
+* **api:** manual updates ([0a27908](https://github.com/rehanalam/stainless-release-flow-test/commit/0a279087e9ff40f613b69a115db6b1b44f9179a2))
+
 ## 1.3.0 (2025-11-28)
 
 Full Changelog: [v1.2.0...v1.3.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v1.2.0...v1.3.0)
