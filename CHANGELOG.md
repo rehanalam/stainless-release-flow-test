@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.4.1 (2026-01-07)
+
+Full Changelog: [v1.4.0...v1.4.1](https://github.com/rehanalam/stainless-release-flow-test/compare/v1.4.0...v1.4.1)
+
+### Bug Fixes
+
+* **mcp:** correct code tool API endpoint ([c3fa090](https://github.com/rehanalam/stainless-release-flow-test/commit/c3fa09060c7e6e74e12fdd4813278bd2d53d2a76))
+* **mcp:** return correct lines on typescript errors ([9b725e2](https://github.com/rehanalam/stainless-release-flow-test/commit/9b725e25c62b835de5929a59c2bbcd41f7da1e7c))
+
+
+### Chores
+
+* break long lines in snippets into multiline ([3019d7a](https://github.com/rehanalam/stainless-release-flow-test/commit/3019d7a8b762c95c46423e53ec66db73756ebb89))
+* **client:** fix logger property type ([fbe7f6c](https://github.com/rehanalam/stainless-release-flow-test/commit/fbe7f6c147540c383a2eb2d11b68c0c06b27723f))
+* **internal:** codegen related update ([0912521](https://github.com/rehanalam/stainless-release-flow-test/commit/09125213058af148d65e5259a0bc178c0c4dac06))
+* **internal:** codegen related update ([9e4902b](https://github.com/rehanalam/stainless-release-flow-test/commit/9e4902be28b55b62a5af64a7d87b71e12e396519))
+* **internal:** codegen related update ([df41389](https://github.com/rehanalam/stainless-release-flow-test/commit/df41389c3619480d6059b48f6f44dbff7fc52625))
+* **internal:** configure pnpm minimumReleaseAge to 1 day ([472914e](https://github.com/rehanalam/stainless-release-flow-test/commit/472914e9381d61bf599161f6b138dc2c7f157049))
+* **internal:** upgrade eslint ([4383a15](https://github.com/rehanalam/stainless-release-flow-test/commit/4383a1566a47e8c784b2e3e712116d6be38c8445))
+
 ## 1.4.0 (2025-11-28)
 
 Full Changelog: [v1.3.0...v1.4.0](https://github.com/rehanalam/stainless-release-flow-test/compare/v1.3.0...v1.4.0)

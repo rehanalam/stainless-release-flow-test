@@ -26,7 +26,11 @@ const client = new ReleaseFlowWithSampleAPI({
   apiKey: process.env['PETSTORE_API_KEY'], // This is the default and can be omitted
 });
 
-const order = await client.store.orders.create({ petId: 1, quantity: 1, status: 'placed' });
+const order = await client.store.orders.create({
+  petId: 1,
+  quantity: 1,
+  status: 'placed',
+});
 
 console.log(order.id);
 ```
@@ -43,7 +47,8 @@ const client = new ReleaseFlowWithSampleAPI({
   apiKey: process.env['PETSTORE_API_KEY'], // This is the default and can be omitted
 });
 
-const response: ReleaseFlowWithSampleAPI.StoreListInventoryResponse = await client.store.listInventory();
+const response: ReleaseFlowWithSampleAPI.StoreListInventoryResponse =
+  await client.store.listInventory();
 ```
 
 Documentation for each method, request param, and response field are available in docstrings and will appear on hover in most modern editors.
