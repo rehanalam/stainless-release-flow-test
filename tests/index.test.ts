@@ -111,7 +111,11 @@ describe('instantiate client', () => {
         error: jest.fn(),
       };
 
-      const client = new ReleaseFlowWithSampleAPI({ logger: logger, logLevel: 'info', apiKey: 'My API Key' });
+      const client = new ReleaseFlowWithSampleAPI({
+        logger: logger,
+        logLevel: 'info',
+        apiKey: 'My API Key',
+      });
 
       await forceAPIResponseForClient(client);
       expect(debugMock).not.toHaveBeenCalled();
@@ -161,7 +165,11 @@ describe('instantiate client', () => {
       };
 
       process.env['RELEASE_FLOW_WITH_SAMPLE_API_LOG'] = 'debug';
-      const client = new ReleaseFlowWithSampleAPI({ logger: logger, logLevel: 'off', apiKey: 'My API Key' });
+      const client = new ReleaseFlowWithSampleAPI({
+        logger: logger,
+        logLevel: 'off',
+        apiKey: 'My API Key',
+      });
 
       await forceAPIResponseForClient(client);
       expect(debugMock).not.toHaveBeenCalled();
@@ -560,7 +568,11 @@ describe('retries', () => {
       return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
     };
 
-    const client = new ReleaseFlowWithSampleAPI({ apiKey: 'My API Key', timeout: 10, fetch: testFetch });
+    const client = new ReleaseFlowWithSampleAPI({
+      apiKey: 'My API Key',
+      timeout: 10,
+      fetch: testFetch,
+    });
 
     expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
     expect(count).toEqual(2);
@@ -590,7 +602,11 @@ describe('retries', () => {
       return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
     };
 
-    const client = new ReleaseFlowWithSampleAPI({ apiKey: 'My API Key', fetch: testFetch, maxRetries: 4 });
+    const client = new ReleaseFlowWithSampleAPI({
+      apiKey: 'My API Key',
+      fetch: testFetch,
+      maxRetries: 4,
+    });
 
     expect(await client.request({ path: '/foo', method: 'get' })).toEqual({ a: 1 });
 
@@ -614,7 +630,11 @@ describe('retries', () => {
       capturedRequest = init;
       return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
     };
-    const client = new ReleaseFlowWithSampleAPI({ apiKey: 'My API Key', fetch: testFetch, maxRetries: 4 });
+    const client = new ReleaseFlowWithSampleAPI({
+      apiKey: 'My API Key',
+      fetch: testFetch,
+      maxRetries: 4,
+    });
 
     expect(
       await client.request({
@@ -676,7 +696,11 @@ describe('retries', () => {
       capturedRequest = init;
       return new Response(JSON.stringify({ a: 1 }), { headers: { 'Content-Type': 'application/json' } });
     };
-    const client = new ReleaseFlowWithSampleAPI({ apiKey: 'My API Key', fetch: testFetch, maxRetries: 4 });
+    const client = new ReleaseFlowWithSampleAPI({
+      apiKey: 'My API Key',
+      fetch: testFetch,
+      maxRetries: 4,
+    });
 
     expect(
       await client.request({
